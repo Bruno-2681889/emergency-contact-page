@@ -1,0 +1,44 @@
+{
+  "personal_info": {
+    "name": "Nayara Lopes da Silva",
+    "age": 30,
+    "blood_type": "O-",
+    "photo": "./images/foto_nana_app.jpg"
+  },
+  "insurance_info": {
+    "provider": "convenio",
+    "policy_number": "num_convenio",
+    "plan_type": "tipo de Plano",
+    "coverage": [
+    
+    ]
+  },
+  "address": {
+    "street": "Rua , 00",
+    "city": "bairro",
+    "state": "SP",
+    "zip_code": "12345-678"
+  },
+  "contacts": [
+    {
+      "relation": "Mãe",
+      "name": "Nome da Mãe",
+      "phone": "1234-5678"
+    },
+    {
+      "relation": "Pai",
+      "name": "Nome do Pai",
+      "phone": "8765-4321"
+    },
+    {
+      "relation": "Irmão",
+      "name": "nome do irmao",
+      "phone": "1234-5678"
+    },
+    {
+      "relation": "Amigo",
+      "name": "Nome do Amigo",
+      "phone": "5566-7788"
+    }
+  ]
+}

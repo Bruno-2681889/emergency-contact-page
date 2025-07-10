@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos de Emergência - Nayara Lopes da Silva</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CONTATOS DE EMERGÊNCIA</h1>
+        </header>
+        
+        <main>
+            <!-- Foto Grande no Centro -->
+            <div class="photo-section">
+                <img id="profile-photo" src="images/foto_nana_app.jpg" alt="Foto de Nayara Lopes da Silva">
+                <h2 id="person-name">Nayara Lopes da Silva</h2>
+            </div>
+            
+            <!-- Informações Pessoais -->
+            <section class="info-section">
+                <h3>Informações Pessoais</h3>
+                <table class="info-table">
+                    <tr>
+                        <td><strong>Nome:</strong></td>
+                        <td id="name">Nayara Lopes da Silva</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Idade:</strong></td>
+                        <td id="age">30 anos</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tipo Sanguíneo:</strong></td>
+                        <td id="blood-type" class="blood-type">O-</td>
+                    </tr>
+                </table>
+            </section>
+            
+            <!-- Informações do Convênio -->
+            <section class="info-section">
+                <h3>Convênio Médico</h3>
+                <table class="info-table">
+                    <tr>
+                        <td><strong>Convênio:</strong></td>
+                        <td id="insurance">Bradesco Saúde</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Número:</strong></td>
+                        <td id="policy-number">774 431 007277 006</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tipo do Plano:</strong></td>
+                        <td id="plan-type">Plano Executivo Enfermaria</td>
+                    </tr>
+                    <tr>
+                    <tr>
+                        <td><strong>Hospital de Tratamento:</strong></td>
+                        <td id="coverage">
+                            <a href="https://hospitalhsi.com.br/" target="_blank" style="color: #3498db; text-decoration: none;">
+                                Hospital Santa Isabel
+Rua Dona Veridiana, 311
+Higienópolis – SP
+                            </a>    
+                        </td>
+                    </tr>
+                    </tr>
+                </table>
+            </section>
+            
+            <!-- Endereço -->
+            <section class="info-section">
+                <h3>Endereço</h3>
+                <table class="info-table">
+                    <tr>
+                        <td><strong>Rua:</strong></td>
+                        <td id="street">Rua Bartira, 190</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cidade:</strong></td>
+                        <td id="city">Perdizes</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Estado:</strong></td>
+                        <td id="state">SP</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CEP:</strong></td>
+                        <td id="zip">05009-000</td>
+                    </tr>
+                </table>
+            </section>
+            
+            <!-- Contatos de Emergência -->
+            <section class="info-section">
+                <h3>Contatos de Emergência</h3>
+                <table class="contacts-table">
+                    <thead>
+                        <tr>
+                            <th>Relação</th>
+                            <th>Nome</th>
+                            <th>Telefone</th>
+                        </tr>
+                    </thead>
+                    <tbody id="contacts-list">
+                        <!-- Contatos serão inseridos aqui via JavaScript -->
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        
+        <footer>
+            <p class="emergency-note">EM CASO DE EMERGÊNCIA, LIGUE IMEDIATAMENTE PARA 192 (SAMU) OU 193 (BOMBEIROS)  E PARA ALGUEM DOS CONTATOS LISTADO ACIMA!</p>
+        </footer>
+    </div>
+    
+    <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 3px solid #e74c3c;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #e74c3c;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.photo-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#profile-photo {
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    object-fit: cover;
+    border: 8px solid #000000;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+#person-name {
+    font-size: 3rem;
+    color: #b90a9c;
+    margin-bottom: 10px;
+}
+
+.info-section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+}
+
+.info-section h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.info-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.info-table td:first-child {
+    width: 30%;
+    background-color: #ecf0f1;
+}
+
+.contacts-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.contacts-table th,
+.contacts-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.contacts-table th {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+.contacts-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.blood-type {
+    font-weight: bold;
+    color: #e74c3c;
+    font-size: 1.1rem;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.emergency-note {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.coverage-list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.coverage-list li {
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+/* Responsividade mobile */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    
+    #profile-photo {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .info-table td {
+        padding: 8px;
+    }
+    
+    .contacts-table th,
+    .contacts-table td {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+}
