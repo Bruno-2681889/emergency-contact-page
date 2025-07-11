@@ -6,7 +6,7 @@
     "photo": "./images/foto_nana_app.jpg"
   },
   "insurance_info": {
-    "provider": "convenio",
+    "provider": "Bradesco Saúde",
     "policy_number": "774 431 007277 006",
     "plan_type": "Plano Executivo Enfermaria",
     "coverage": [
@@ -26,9 +26,9 @@
       "phone": "1234-5678"
     },
     {
-      "relation": "Pai",
-      "name": "Nome do Pai",
-      "phone": "8765-4321"
+      "relation": "tia",
+      "name": "Ledimari Lopes (Somente WhatsApp)",
+      "phone": "(11) 99502-0998"
     },
     {
       "relation": "Irmão",
