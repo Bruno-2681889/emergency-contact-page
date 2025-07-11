@@ -74,7 +74,7 @@ function showFallbackData() {
     // Dados de fallback caso o JSON não carregue
     const fallbackContacts = [
         { relation: "Mãe", name: "Neuza Lopes (Somente WhatsApp)", phone: "(11) 97362-8418" },
-        { relation: "Tia", name: "Ledimari Lopes (Somente WhatsApp)", phone: "(11) 9502-0998" },
+        { relation: "Tia", name: "Ledimari Lopes (Somente WhatsApp)", phone: "(11) 99502-0998" },
         { relation: "Irmão", name: "Bruno Lopes", phone: "(11) 95778-0014" },
         { relation: "Cunhada", name: "Jessica Karoline", phone: "(11) 96426-9131" }
     ];
